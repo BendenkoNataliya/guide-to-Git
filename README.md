@@ -118,9 +118,9 @@ Git хранит таблицу соответствий ```хеш → инфо�
 graph TD;
   untracked -- "git add" --> staget;  
   staget -- "git commit --> tracked/commited;  
-  staget -- "changes" --> modified;  
+  staget --> modified;  
   modified -- "git add" --> staget;  
-  tracked -- "changes" --> modified;  
+  tracked --> modified;  
 ```  
 <br>
 
