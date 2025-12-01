@@ -115,7 +115,7 @@ Git хранит таблицу соответствий ```хеш → инфо�
 **Жизненный цикл файлов в Git** 
 
 ```mermaid
-graph LR;
+graph TD;
   untracked -- "git add" --> staget;  
   staget -- "git commit --> tracked/commited;  
   staget -- "changes" --> modified;  
