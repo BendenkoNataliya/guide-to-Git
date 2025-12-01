@@ -119,8 +119,7 @@ graph TD;
   untracked -- "git add" --> staget;  
   staget -- "git commit --> tracked/commited;  
   staget --> modified;  
-  modified -- "git add" --> staget;  
-  tracked --> modified;  
+  
 ```  
 <br>
 
